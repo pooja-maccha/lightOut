@@ -1,0 +1,61 @@
+<html>
+<style>
+     nav {
+            /* background-color: #333; */
+            overflow: hidden;
+            text-align: center;
+            box-shadow:  0 2px 4px rgba(0, 0, 0, 0.1);;
+            display: block;
+            /* color: white; */
+            background-color: white;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: "Fantasy", "Papyrus";
+            font-size: medium;
+            font-weight: bold;
+        }
+    #addendum {
+        /* font-weight: bold; */
+        padding: 1em;
+        padding-top: 0;
+        /* background-color: aliceblue; */
+        /* margin-top: 1em; */
+        font-family: "Fantasy", "Papyrus";
+        font-size: medium;
+        /* background-color: bisque; */
+    }
+</style>
+
+    <nav class="header">Addendum</nav>
+    <div id="addendum">
+<ul>
+    <li>The game revenge of lights out is designed using HTML, CSS and Java Script</li>
+    <li>The javascript to the website is linked using 'script' tag and style using 'style' tag</li>
+    <li>Initially, the board has some randomly generated black tiles and, the user tries to turn the game board white </li>
+    <li>The number of clicks the user makes is counted and displayed </li>
+    <li>When the user turns the board white an alert box is displayed along with the count</li>
+    <li>The game is initialised by calling the initializeGame funciton which sets the game board</li>
+    <li>onClick of each tile toggleLights is called which then calls incrementCounter, toggleState, updateLights and checkWin</li>
+    <li>incrementCounter increments the number of moves</li>
+    <li>toggleState again calls toggleSingleStatebased (which changes the color) on various conditions</li>
+    <li>Check win checks if the board has completely turned white and displays an alert box</li>
+
+    <b style="color: black;">Problems faced:</b>
+    <li>Creating elements using java script and appending them to parent was a challege</li>
+    <li>Couldn't fetch elements using getElementByClassName </li>
+    <li>Cannot read properties of null was always the error I saw</li>
+    <li>Java script added elements to existing elements</li>
+    <li>Styling was a challege</li>
+    <b style="color: black;">Solution:</b>
+    <li>Used debugger to find out the reason for code break</li>
+    <li>Replaced getElementByClassName by getElementById to get Elements</li>
+    <li>Cleared out existing elements using a condition and replacing it with empty string</li>
+    <b style="color: black;">Insights:</b>
+    <li>Learnt various javascript functions and dynamic screen updating</li>
+    <li>event handling and flow between fucnitons</li>
+</ul>
+</div>
+
+</html>
